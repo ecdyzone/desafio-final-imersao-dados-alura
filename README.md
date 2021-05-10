@@ -1,6 +1,6 @@
 # Joana e Clara: um passeio noturno pela ciência de dados
 
-Notebook disponível aqui.
+Notebook disponível [aqui](https://github.com/mumaral/desafio-final-imersao-dados-alura/blob/main/Desafio_Final_Murilo.ipynb).
 
 ## Sobre o Projeto
 
