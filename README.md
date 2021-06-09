@@ -4,9 +4,9 @@ Notebook disponível [aqui](https://github.com/mumaral/desafio-final-imersao-dad
 
 ## Sobre o Projeto
 
-Projeto desenvolvido como [desafio final](https://github.com/alura-cursos/imersao-dados-desafio-final) da terceira edição da [imersão dados](https://github.com/alura-cursos/imersaodados3) da Alura, e submetido em 09/05/2021. Nesta edição o foco foi utilizar a ciência de dados para analisar dados farmacológicos, com datasets vindos do desafio: *Mechanisms of Action (MoA) Prediction* no [Kaggle](https://www.kaggle.com/c/lish-moa)
+Projeto desenvolvido como [desafio final](https://github.com/alura-cursos/imersao-dados-desafio-final) da terceira edição da [imersão dados](https://github.com/alura-cursos/imersaodados3) da Alura, e submetido em 09/05/2021. Nesta edição o foco foi utilizar a ciência de dados para analisar dados farmacológicos, com datasets vindos do desafio: *Mechanisms of Action (MoA) Prediction* do [Kaggle](https://www.kaggle.com/c/lish-moa)
 
-Este repositório contém apenas o desafio final. As anotações de aulas estão em [outro repositório](https://github.com/mumaral/imersao-dados-alura). Caso você queira abrir o arquivo no Google Collab e não tenha familiaridade com o github, [aqui](https://github.com/mumaral/imersao-dados-alura) está um passo a passo.
+*Este repositório contém apenas o desafio final. As anotações de aulas estão em [outro repositório](https://github.com/mumaral/imersao-dados-alura). Caso você queira abrir o arquivo no Google Collab e não tenha familiaridade com o github, [aqui](https://github.com/mumaral/imersao-dados-alura) está um passo a passo.*
 
 ## Resumo
 
@@ -19,18 +19,26 @@ O projeto está escrito em uma linguagem narrativa, que lembra algo como uma cr�
 
 ## Críticas e sugestões
 
-Ficarei feliz em ouvir críticas e sugestões. Fique a vontade para entrar em contato comigo.
+Ficarei feliz em ouvir críticas e sugestões. Fique a vontade para entrar em contato comigo. :smile:
 
-## Dependências
+## Reprodutibilidade
 
-- Python 3.8.5
-- Pandas
+**Dados**: presentes no [repositório](https://github.com/alura-cursos/imersaodados3/tree/main/dados) da Alura para a Imersão Dados 2021
 
-- Numpy
+**Dependências**: no arquivo [requirements.txt](./requirements.txt)
 
-- Seaborn
-- Matplotlib
-- Scikit-learn
+Exemplo de bash script para rodar no Jupyter com ambiente virtual python (Linux):
+
+```bash
+$ git clone https://github.com/mumaral/desafio-final-imersao-dados-alura.git
+$ python3 -m venv projectname
+$ source projectname/bin/activate
+(venv) $ pip3 install -r requirements.txt  
+(venv) $ ipython kernel install --user --name=projectname
+(venv) $ jupyter lab #kernel -> projectname
+```
+
+
 
 
 
